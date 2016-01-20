@@ -35,7 +35,6 @@ namespace WpfEmailScraper
 
                 ls.Scrape(url);
                 _sitesToScrape = ls.Results;
-
                 _sitesToScrape.Add(new Uri(url));
 
                 //store found emails in the results

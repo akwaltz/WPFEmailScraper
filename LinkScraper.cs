@@ -27,9 +27,7 @@ namespace WpfEmailScraper
             WebClient client = new WebClient();
             //catch that shit
             try
-            {
-                //string urlContent = client.DownloadString(url);
-                
+            {   
                 HtmlWeb site = new HtmlWeb();
                 HtmlDocument doc = site.Load(url);
 
@@ -45,9 +43,7 @@ namespace WpfEmailScraper
                     {
                         
                     }
-
                 }
-
             }
             catch
             {

@@ -42,7 +42,6 @@ namespace WpfEmailScraper
             {
                 //how to handle this?
             }
-            
         }
     }
 }
